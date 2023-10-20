@@ -1,0 +1,8 @@
+<div class="card-wrapper">
+    <img src="{{ gameCover }}">
+    <span class="game-tag" *ngIf="gameTag !== ''"> {{ gameTag }} </span>
+    <div class="info-wrapper">
+        <span>{{ gameName }} | {{ gameType }}</span>
+        <span class="game-price"> R$ {{ gamePrice }} </span>
+    </div>    
+</div>
